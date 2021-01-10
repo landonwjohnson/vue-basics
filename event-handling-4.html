@@ -21,7 +21,7 @@
         </ul>
 
         <div class="form-group">
-          <input v-model="framework" type="text" class="form-control" placeholder="Enter Your another favorite Framework">
+          <input v-on:keyup.13="handleSubmit" v-model="framework" type="text" class="form-control" placeholder="Enter Your another favorite Framework">
         </div>
     </div>
 
